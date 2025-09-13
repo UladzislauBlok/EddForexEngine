@@ -6,6 +6,4 @@ option java_package = "org.bloku.fox.model.request";
 
 message CreateOrder {
   string client_order_id = 1;
-  string test = 2;
-  string test_1 = 3;
 }
