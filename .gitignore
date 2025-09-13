@@ -23,7 +23,10 @@
 hs_err_pid*
 replay_pid*
 
-LSP / Gradle
+# LSP / Gradle
 *.classpath
 *.project
 *.settings
+
+# My stuff
+test

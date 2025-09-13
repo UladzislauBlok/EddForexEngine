@@ -16,3 +16,9 @@ protobuf {
     artifact = "com.google.protobuf:protoc:4.32.0"
   }
 }
+
+tasks.jar {
+    archiveBaseName.set("fox-model")
+    archiveVersion.set("0.0.1")
+    exclude("v1/")
+}
