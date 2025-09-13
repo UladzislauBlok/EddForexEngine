@@ -1,0 +1,9 @@
+edition = "2023";
+
+package proto.v1;
+
+option java_package = "org.bloku.fox.model.request";
+
+message CreateOrder {
+  string client_order_id = 1;
+}
