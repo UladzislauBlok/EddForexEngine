@@ -5,3 +5,6 @@ junit-jupiter = "5.12.1"
 [libraries]
 spring-boot-admin = { module = "de.codecentric:spring-boot-admin-starter-server", version.ref = "spring-boot-admin" }
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version = "3.5.6" }
